@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+.a1234{
+    color: #000000;
+}
+
+
+ul{
+    display: flex;
+    width: 234px;
+    height: 24px;
+    gap: 30px;
+    padding-left: 50px;
+    font-family:' Plus Jakarta Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: 'from-font';
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+nav{
+    display: flex;
+    padding: 32px;
+    padding-left: 112px;
+    color: #000000;
+}
+
+.imgsd{
+    width: 81px;
+    height: 28px;
+    color: #000000;
+    
+}
+li{
+    color: #000000;
+}
+
+
+.b{
+    padding: 24px 112px 24px;
+}
+
+button{
+    width:156px;
+    height: 41px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    border-radius: 6px ;
+    opacity: 0px;
+    background-color: black;
+}
+
+.sp{
+    color: white;
+}
+
+
+h1{
+    width: 550px;
+    height: 234px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 78.4px;
+    text-align: left;
+    text-underline-position:' from-font';
+    text-decoration-skip-ink: none;
+    
+}
+
+.div1{
+    padding: 112px 92px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 78.4px;
+    text-align: left;
+    text-underline-position: 'from-font';
+    text-decoration-skip-ink: none;   
+}
+
+
+.button2{
+}
+
+.button3{
+    background-color: rgba(26, 171, 123, 1);
+    width:168px;
+    height: 59px;
+    padding: 20px 40px 20px 40px;
+    gap: 10px;
+    border-radius: 6px ;
+    opacity: 0px;
+    border: none;
+    color: white;
+    
+}
+
+p{
+    color: white;
+    
+}
+
+.ifarme{
+    width: 592px;
+    height: 334px;
+    display: flex;
+    align-items: center;
+}
+
+.bigdiv{
+    display: flex;
+    justify-content: space-a;
+}
+
+.ifarmebig{
+    padding-top: 130px;
+    
+}
+
+
+.kub {
+    width: 384px;
+    height: 358px;
+    border-radius: 6px;
+    background-color: #F2F4F6;
+    border: 2px #E1E7ED solid;
+}
+
+.web {
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 30px;
+    padding-top: 40px;
+    color: #000000;
+}
+
+.lorem {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 30px;
+    color: #636F87;
+}
+
+
+.spa{
+    width: 383px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 462px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+        
+}
+
+
+
+.prw{
+    width: 383px;
+    height: 50px;
+    margin-top: px;
+    margin-left: 400px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.pm1{
+    width: 383px;
+    height: 50px;
+    top: 50px;
+    left: 529px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.view {
+    margin-left: 30px;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 50px;
+
+}
+
+.kub:hover {
+    background-color: #1AAB7B;
+    color: #FFFFFF;
+}
+
+.kub:hover>p,
+a {
+    color: white;
+}
+
+.kub:hover>a {
+    color: white;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 40px;
+    background-color: rgba(242, 244, 246, 1);
+    padding-left: 40px;
+    padding-top: 10px;
+    padding: 50px;
+}
+
+.lk{
+    width: 411px;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50.4px;
+}
+.lk1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 132px;
+}
+.bg-img{
+    background-image: url("/assets/images/image\ 1\ \(2\).png");
+    width: 1216px;
+    height: 515px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 112px;
+}
+.img1{
+    background-color:rgba(0, 0, 0, 0.73);
+    width: 565px;
+    height: 434px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+    padding: 37px 30px;
+    gap: 51px;
+}
+.img1>input{
+    width: 430px;
+    height: 46px;
+    border: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.507);
+    background: transparent;
+
+}
+
+
+input::placeholder{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.2px;  
+    color: rgb(255, 255, 255);
+        
+}
+.img1>button{
+    width:217.14px;
+    height:59px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 6px ;
+    background: rgba(26, 171, 123, 1);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+}
+.footer{
+    width: 100%;
+    height: 220px;
+    background-color: #000000;
+    margin-top: 50px;
+    padding-left: 112px;
+}
+.pixer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 950px;
+}
+.imgis{
+    padding-top: 96px;
+    display: flex;
+    gap: 40px;
+}
